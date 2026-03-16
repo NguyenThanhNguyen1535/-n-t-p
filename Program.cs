@@ -23,7 +23,7 @@ namespace Ôn_tập
             var sorted = products.OrderBy(p => p.Price);
             var cheapest = products.OrderBy(p => p.Price).Take(3);
 
-            Console.WriteLine("Sản phẩm giá > 500:");
+            Console.WriteLine("Sản Phẩm giá > 500:");
             foreach (var p in expensive)
                 Console.WriteLine($"{p.Name} : {p.Price}");
 
